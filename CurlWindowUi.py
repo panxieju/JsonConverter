@@ -1,0 +1,120 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'CurlWindowUi.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_CurlWindow(object):
+    def setupUi(self, CurlWindow):
+        CurlWindow.setObjectName("CurlWindow")
+        CurlWindow.resize(891, 740)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/newPrefix/icons/JSON格式化.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        CurlWindow.setWindowIcon(icon)
+        self.centralwidget = QtWidgets.QWidget(CurlWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.verticalLayout_5 = QtWidgets.QVBoxLayout(self.centralwidget)
+        self.verticalLayout_5.setObjectName("verticalLayout_5")
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.comboBox = QtWidgets.QComboBox(self.centralwidget)
+        self.comboBox.setMinimumSize(QtCore.QSize(120, 0))
+        self.comboBox.setObjectName("comboBox")
+        self.horizontalLayout_2.addWidget(self.comboBox)
+        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+        self.lineEdit.setObjectName("lineEdit")
+        self.horizontalLayout_2.addWidget(self.lineEdit)
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setObjectName("pushButton")
+        self.horizontalLayout_2.addWidget(self.pushButton)
+        self.verticalLayout_5.addLayout(self.horizontalLayout_2)
+        self.horizontalLayout_3 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_3.setObjectName("horizontalLayout_3")
+        self.listWidget = QtWidgets.QListWidget(self.centralwidget)
+        self.listWidget.setMaximumSize(QtCore.QSize(450, 16777215))
+        self.listWidget.setObjectName("listWidget")
+        self.horizontalLayout_3.addWidget(self.listWidget)
+        self.verticalLayout_4 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_4.setObjectName("verticalLayout_4")
+        self.verticalLayout = QtWidgets.QVBoxLayout()
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setObjectName("label")
+        self.verticalLayout.addWidget(self.label)
+        self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.textEdit.sizePolicy().hasHeightForWidth())
+        self.textEdit.setSizePolicy(sizePolicy)
+        self.textEdit.setMaximumSize(QtCore.QSize(2560, 100))
+        self.textEdit.setStyleSheet("")
+        self.textEdit.setObjectName("textEdit")
+        self.verticalLayout.addWidget(self.textEdit)
+        self.verticalLayout_4.addLayout(self.verticalLayout)
+        self.verticalLayout_2 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setObjectName("label_2")
+        self.verticalLayout_2.addWidget(self.label_2)
+        self.textEdit_2 = QtWidgets.QTextEdit(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.textEdit_2.sizePolicy().hasHeightForWidth())
+        self.textEdit_2.setSizePolicy(sizePolicy)
+        self.textEdit_2.setMaximumSize(QtCore.QSize(2560, 80))
+        self.textEdit_2.setObjectName("textEdit_2")
+        self.verticalLayout_2.addWidget(self.textEdit_2)
+        self.verticalLayout_4.addLayout(self.verticalLayout_2)
+        self.verticalLayout_3 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_3.setObjectName("verticalLayout_3")
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        self.label_3.setObjectName("label_3")
+        self.verticalLayout_3.addWidget(self.label_3)
+        self.textEdit_3 = QtWidgets.QTextEdit(self.centralwidget)
+        self.textEdit_3.setObjectName("textEdit_3")
+        self.textEdit.setTabStopWidth(40)
+        self.textEdit_2.setTabStopWidth(40)
+        self.textEdit_3.setTabStopWidth(40)
+        self.verticalLayout_3.addWidget(self.textEdit_3)
+        self.verticalLayout_4.addLayout(self.verticalLayout_3)
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem)
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.horizontalLayout.addWidget(self.pushButton_2)
+        self.verticalLayout_4.addLayout(self.horizontalLayout)
+        self.horizontalLayout_3.addLayout(self.verticalLayout_4)
+        self.verticalLayout_5.addLayout(self.horizontalLayout_3)
+        CurlWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(CurlWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 891, 23))
+        self.menubar.setObjectName("menubar")
+        CurlWindow.setMenuBar(self.menubar)
+
+        self.retranslateUi(CurlWindow)
+        QtCore.QMetaObject.connectSlotsByName(CurlWindow)
+
+    def retranslateUi(self, CurlWindow):
+        _translate = QtCore.QCoreApplication.translate
+        CurlWindow.setWindowTitle(_translate("CurlWindow", "Curl"))
+        self.pushButton.setText(_translate("CurlWindow", "SEND"))
+        self.label.setText(_translate("CurlWindow", "HEADER"))
+        self.textEdit.setHtml(_translate("CurlWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'SimSun\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">{&quot;Content-Type&quot;:&quot;application/json&quot;}</p></body></html>"))
+        self.label_2.setText(_translate("CurlWindow", "BODY"))
+        self.label_3.setText(_translate("CurlWindow", "RESPONSE"))
+        self.pushButton_2.setText(_translate("CurlWindow", "Format"))
+import resource_rc

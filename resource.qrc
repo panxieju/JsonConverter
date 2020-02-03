@@ -1,0 +1,27 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>icons/about_nexttec.png</file>
+    <file>icons/json.png</file>
+    <file>icons/API.png</file>
+    <file>icons/Tree-01.png</file>
+    <file>icons/clear.png</file>
+    <file>icons/compare.png</file>
+    <file>icons/go.png</file>
+    <file>icons/java.png</file>
+    <file>icons/JSON格式化.png</file>
+    <file>icons/kotlin.png</file>
+    <file>icons/open 打开文件.png</file>
+    <file>icons/tree.png</file>
+    <file>icons/复制.png</file>
+    <file>icons/清除.png</file>
+    <file>icons/粘贴.png</file>
+    <file>icons/go.png</file>
+    <file>icons/java.png</file>
+    <file>icons/JSON格式化.png</file>
+    <file>icons/kotlin.png</file>
+    <file>icons/open 打开文件.png</file>
+    <file>icons/复制.png</file>
+    <file>icons/清除.png</file>
+    <file>icons/粘贴.png</file>
+  </qresource>
+</RCC>
